@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AWS Docs Sidebar Toggler",
+  "version": "1.0",
+  "description": "Automatically toggles the sidebar on AWS documentation pages.",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://docs.aws.amazon.com/*"
+  ]
+}

@@ -1,11 +1,12 @@
-# awsdoc-sidebar-closer
+# awsdoc-sidebar-toggler
 
-Chrome extension: Automatically close right sidebar in AWS documents
+Chrome extension: Automatically close/open the sidebars in AWS documents
 
 ## Usage
 
-- When you accses to an AWS document page, this extension will automatically close the right sidebar if it ts open.
-- The extension attempts to close the sidebar multiple times immediately after the page loads.
+- When you access to an AWS document page, this extension will automatically close/open the left/right sidebars as specified.
+  - The extension attempts to close/open the sidebar multiple times immediately after the page loads.
+  - In the Options page, you can specify the desired action for each sidebar. (Default: left -> open, right -> close)
 
 
 ## How to Install the Chrome Extension in Developer Mode
